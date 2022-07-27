@@ -1,0 +1,5 @@
+/platform-services/apigateway/target/
+/platform-services/discovery/target/
+/business-services/two/target/
+/business-services/one/target/
+/business-services/common/target/
