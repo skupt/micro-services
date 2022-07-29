@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="apigateway" target="8" />
+      <module name="business-services" target="8" />
+      <module name="common" target="8" />
+      <module name="discovery" target="8" />
+      <module name="micro-services" target="8" />
+      <module name="one" target="8" />
+      <module name="platform-services" target="8" />
+      <module name="two" target="8" />
+      <module name="two-api" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

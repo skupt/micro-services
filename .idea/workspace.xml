@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="Discovery: plugin management" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="docker_feature" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2CTUTmrofGGFhF0olsFuVqs2K7P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42873564" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\two-api" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\two" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\one" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\common" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\apigateway" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\discovery" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\discovery\docker" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epam.javacc.microservices.businessservices.one.metrics" />
+      <recent name="com.epam.javacc.microservices.businessservices.two.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TwoApp">
+    <configuration name="ApiGatewayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.javacc.microservices.platformservices.apigateway.ApiGatewayApp" />
+      <module name="apigateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.javacc.microservices.platformservices.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.javacc.microservices.businessservices.common.CommonApp" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.javacc.microservices.businessservices.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.javacc.microservices.platformservices.discovery.DiscoveryApp" />
+      <module name="discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.javacc.microservices.platformservices.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.javacc.microservices.businessservices.one.OneApp" />
+      <module name="one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.javacc.microservices.businessservices.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.javacc.microservices.businessservices.two.TwoApp" />
+      <module name="two" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.javacc.microservices.businessservices.two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApiGatewayApp" />
+      <item itemvalue="Application.CommonApp" />
+      <item itemvalue="Application.DiscoveryApp" />
+      <item itemvalue="Application.OneApp" />
+      <item itemvalue="Application.TwoApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwoApp" />
+        <item itemvalue="Application.OneApp" />
+        <item itemvalue="Application.CommonApp" />
+        <item itemvalue="Application.ApiGatewayApp" />
+        <item itemvalue="Application.DiscoveryApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="" />
+      <created>1658826081368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658826081368</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1658905773081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658905773081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit in dev branch">
+      <created>1658906198057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658906198057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task implementation without Servo">
+      <created>1658914243574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658914243574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task implementation without Docker">
+      <created>1658951872122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658951872122</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Discovery: Dockerfile and build helper maven plugin">
+      <created>1658997143582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658997143582</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Discovery: plugin management">
+      <created>1659074494493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659074494493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Initial Commit in dev branch" />
+    <MESSAGE value="Task implementation without Servo" />
+    <MESSAGE value="Task implementation without Docker" />
+    <MESSAGE value="Discovery: Dockerfile and build helper maven plugin" />
+    <MESSAGE value="Discovery: plugin management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Discovery: plugin management" />
+  </component>
+</project>

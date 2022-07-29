@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-services/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/platform-services/apigateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/business-services.iml" filepath="$PROJECT_DIR$/business-services/business-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/common/common.iml" filepath="$PROJECT_DIR$/business-services/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-services/discovery/discovery.iml" filepath="$PROJECT_DIR$/platform-services/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-services.iml" filepath="$PROJECT_DIR$/micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/one/one.iml" filepath="$PROJECT_DIR$/business-services/one/one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-services/platform-services.iml" filepath="$PROJECT_DIR$/platform-services/platform-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/two/two.iml" filepath="$PROJECT_DIR$/business-services/two/two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/two-api/two-api.iml" filepath="$PROJECT_DIR$/business-services/two-api/two-api.iml" />
+    </modules>
+  </component>
+</project>
