@@ -14,18 +14,14 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <base-path>${project.build.outputDirectory}</base-path>
+        <!--        <base-path>${project.basedir}</base-path>-->
+        <base-path>${project.basedir}</base-path>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>build-helper-maven-plugin</artifactId>
-            <version>3.3.0</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
@@ -41,6 +37,15 @@
     </dependencyManagement>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>3.3.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -56,7 +61,7 @@
                         <configuration>
                             <resources>
                                 <resource>
-                                    <directory>${base-path}/docker/springboot-app</directory>
+                                    <directory>${base-path}/springboot-app</directory>
                                     <targetPath>${project.build.directory}/docker</targetPath>
                                     <filtering>true</filtering>
                                 </resource>
