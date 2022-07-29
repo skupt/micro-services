@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="Discovery: plugin management" />
+    <list default="true" id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="Microservices: .idea">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-services/one/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-services/two/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-services/apigateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-services/discovery/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/one/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/one/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two-api/target/two-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/controller/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/controller/GreetingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/controller/GreetingRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/controller/GreetingRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-services/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-services/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-services/apigateway/src/main/java/com/epam/javacc/microservices/platformservices/apigateway/ApiGatewayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-services/apigateway/src/main/java/com/epam/javacc/microservices/platformservices/apigateway/ApiGatewayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-services/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-services/apigateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-services/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-services/discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-services/discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-services/discovery/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +60,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="docker_feature" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -54,6 +92,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -67,7 +112,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform-services/discovery" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42873564" />
@@ -75,13 +121,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\two-api" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\discovery" />
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\two" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\one" />
-      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\business-services\common" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\apigateway" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\discovery" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services\discovery\docker" />
       <recent name="C:\Users\Vitalii_Rozaronov\Documents\projects\JGMP\11\task\micro-services\platform-services" />
@@ -91,7 +138,13 @@
       <recent name="com.epam.javacc.microservices.businessservices.two.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoApp">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean package docker:build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="ApiGatewayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -164,20 +217,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.ApiGatewayApp" />
       <item itemvalue="Application.CommonApp" />
       <item itemvalue="Application.DiscoveryApp" />
       <item itemvalue="Application.OneApp" />
       <item itemvalue="Application.TwoApp" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoApp" />
-        <item itemvalue="Application.OneApp" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Application.CommonApp" />
         <item itemvalue="Application.ApiGatewayApp" />
-        <item itemvalue="Application.DiscoveryApp" />
+        <item itemvalue="Application.TwoApp" />
+        <item itemvalue="Application.OneApp" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659074494493</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Microservices: .idea">
+      <created>1659075599448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659075599448</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +326,7 @@
     <MESSAGE value="Task implementation without Docker" />
     <MESSAGE value="Discovery: Dockerfile and build helper maven plugin" />
     <MESSAGE value="Discovery: plugin management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Discovery: plugin management" />
+    <MESSAGE value="Microservices: .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservices: .idea" />
   </component>
 </project>
