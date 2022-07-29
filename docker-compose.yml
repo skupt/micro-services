@@ -1,0 +1,40 @@
+version: '3'
+services:
+  discovery:
+    image: microservices/discovery
+    ports:
+      - "8761:8761"
+
+  apigateway:
+    image: microservices/apigateway
+    depends_on:
+      - discovery
+    links:
+      - discovery
+    environment:
+      - EUREKA_URI=discovery
+    command: echo "EUREKA_URI ${EUREKA_URI}"
+    ports:
+      - "8765:8765"
+
+  one:
+    image: microservices/one
+    depends_on:
+      - discovery
+    links:
+      - discovery
+    environment:
+      - EUREKA_URI=discovery
+    command: echo "EUREKA_URI ${EUREKA_URI}"
+
+  two:
+    image: microservices/two
+    depends_on:
+      - discovery
+      - one
+    links:
+      - discovery
+      - one
+    environment:
+      - EUREKA_URI=discovery
+    command: echo "EUREKA_URI ${EUREKA_URI}"

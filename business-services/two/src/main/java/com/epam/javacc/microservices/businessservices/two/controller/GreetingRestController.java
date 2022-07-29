@@ -30,7 +30,7 @@ public class GreetingRestController {
     public String getGreeting(Model model) {
         counter.increment();
         Stopwatch stopwatch = timer.start();
-        String greeting = greetingClient.greeting();
+        String greeting = "TWO says: '" + greetingClient.greeting() + "'";
         stopwatch.stop();
         return greeting;
     }
