@@ -25,8 +25,8 @@ public class OneController implements GreetingController {
 
     @PostConstruct
     public void init() {
-        counter = new BasicCounter(MonitorConfig.builder("one_counter_01").build());
-        timer = new BasicTimer(MonitorConfig.builder("one_timer_01").build(), SECONDS);
+        counter = new BasicCounter(MonitorConfig.builder("counter").build());
+        timer = new BasicTimer(MonitorConfig.builder("timer").build(), SECONDS);
         DefaultMonitorRegistry.getInstance().register(counter);
         DefaultMonitorRegistry.getInstance().register(timer);
     }

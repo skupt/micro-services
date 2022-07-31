@@ -1,14 +1,7 @@
 package com.epam.javacc.microservices.businessservices.two.metrics;
 
-import com.netflix.servo.publish.BasicMetricFilter;
-import com.netflix.servo.publish.MonitorRegistryMetricPoller;
-import com.netflix.servo.publish.PollRunnable;
-import com.netflix.servo.publish.PollScheduler;
-import com.netflix.servo.publish.atlas.AtlasMetricObserver;
-import com.netflix.servo.publish.atlas.BasicAtlasConfig;
-import com.netflix.servo.publish.atlas.ServoAtlasConfig;
-import com.netflix.servo.tag.BasicTagList;
-import com.netflix.servo.tag.TagList;
+import com.netflix.servo.publish.*;
+import com.netflix.servo.publish.graphite.GraphiteMetricObserver;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -20,14 +13,12 @@ public class MetricPublisher {
     @PostConstruct
     private void init() {
         System.setProperty("servo.pollers", "1000");
-        System.setProperty("servo.atlas.batchSize", "1");
-        System.setProperty("servo.atlas.uri", "http://localhost:7101/api/v1/publish");
-        ServoAtlasConfig config = new BasicAtlasConfig();
-        TagList commonTags = BasicTagList.of("servo", "counter", "servo", "two_counter_01", "servo", "two_timer_01");
-        AtlasMetricObserver observer = new AtlasMetricObserver(config, commonTags);
+        String prefix = "two";
+        String addr = "localhost:2003";
+        MetricObserver observer = new GraphiteMetricObserver(prefix, addr);
         PollRunnable pollRunnable = new PollRunnable(new MonitorRegistryMetricPoller(),
                 new BasicMetricFilter(true), observer);
         PollScheduler.getInstance().start();
-        PollScheduler.getInstance().addPoller(pollRunnable, 1, SECONDS);
+        PollScheduler.getInstance().addPoller(pollRunnable, 3, SECONDS);
     }
 }

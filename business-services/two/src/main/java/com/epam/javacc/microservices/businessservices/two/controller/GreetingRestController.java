@@ -20,8 +20,8 @@ public class GreetingRestController {
 
     @PostConstruct
     private void init() {
-        counter = new BasicCounter(MonitorConfig.builder("two_counter_01").build());
-        timer = new BasicTimer(MonitorConfig.builder("two_timer_01").build(), SECONDS);
+        counter = new BasicCounter(MonitorConfig.builder("counter").build());
+        timer = new BasicTimer(MonitorConfig.builder("timer").build(), SECONDS);
         DefaultMonitorRegistry.getInstance().register(counter);
         DefaultMonitorRegistry.getInstance().register(timer);
     }
