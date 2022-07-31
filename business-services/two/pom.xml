@@ -42,7 +42,7 @@
         </dependency>
         <dependency>
             <groupId>com.netflix.servo</groupId>
-            <artifactId>servo-atlas</artifactId>
+            <artifactId>servo-graphite</artifactId>
             <version>0.12.17</version>
         </dependency>
         <dependency>

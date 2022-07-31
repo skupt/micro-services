@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="Containerizing services&#10;&#10;Building, assembling, packaging and docker plagins were set up. &#10;Dockerfiles and doccker-compose file were elaborated.">
+    <list default="true" id="635fb98a-f661-4a69-93bd-55324d11c4de" name="Changes" comment="Graphite and Zipkin are added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/one/src/main/java/com/epam/javacc/microservices/businessservices/one/metrics/MetricPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/one/src/main/java/com/epam/javacc/microservices/businessservices/one/metrics/MetricPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/metrics/MetricPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-services/two/src/main/java/com/epam/javacc/microservices/businessservices/two/metrics/MetricPublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="docker_fabric8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -223,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659122966640</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/docker_fabric8' into docker_fabric8">
+      <created>1659265801203</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659265801203</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Graphite and Zipkin are added">
+      <created>1659275426343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659275426343</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +264,8 @@
     <MESSAGE value="Discovery: plugin management" />
     <MESSAGE value="Microservices: .idea" />
     <MESSAGE value="Containerizing services&#10;&#10;Building, assembling, packaging and docker plagins were set up. &#10;Dockerfiles and doccker-compose file were elaborated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Containerizing services&#10;&#10;Building, assembling, packaging and docker plagins were set up. &#10;Dockerfiles and doccker-compose file were elaborated." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/docker_fabric8' into docker_fabric8" />
+    <MESSAGE value="Graphite and Zipkin are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graphite and Zipkin are added" />
   </component>
 </project>

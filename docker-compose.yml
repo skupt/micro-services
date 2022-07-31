@@ -2,13 +2,13 @@ version: '3'
 services:
   zipkin:
     image: openzipkin/zipkin
-  #      ports:
-  #        - "9411:9411"
+    ports:
+      - "9411:9411"
 
   graphite:
     image: graphiteapp/graphite-statsd
-  #      ports:
-  #        - "2003:2003"
+    ports:
+      - "2003:2003"
 
   discovery:
     image: microservices/discovery
@@ -37,6 +37,7 @@ services:
       - discovery
     environment:
       - EUREKA_URI=discovery
+      - METRIC_OBSERVER_URI=graphite
     command: echo "EUREKA_URI ${EUREKA_URI}"
 
   two:
@@ -51,4 +52,5 @@ services:
       - one
     environment:
       - EUREKA_URI=discovery
+      - METRIC_OBSERVER_URI=graphite
     command: echo "EUREKA_URI ${EUREKA_URI}"
