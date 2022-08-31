@@ -2,55 +2,78 @@ version: '3'
 services:
   zipkin:
     image: openzipkin/zipkin
+    container_name: zipkin-server
     ports:
       - "9411:9411"
 
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-volume
+
   graphite:
     image: graphiteapp/graphite-statsd
-    ports:
-      - "2003:2003"
+    container_name: graphite
+    restart: always
 
   discovery:
     image: microservices/discovery
+    container_name: discovery
+    depends_on:
+      - graphite
+      - zipkin
+    environment:
+      - ZIPKIN_HOST=zipkin
     ports:
       - "8761:8761"
 
   apigateway:
     image: microservices/apigateway
+    container_name: apigateway
     depends_on:
       - discovery
+      - graphite
     links:
       - discovery
     environment:
       - EUREKA_URI=discovery
-    command: echo "EUREKA_URI ${EUREKA_URI}"
     ports:
       - "8765:8765"
 
   one:
     image: microservices/one
+    container_name: service-one
     depends_on:
-      - discovery
-    links:
-      - zipkin
       - graphite
       - discovery
+      - apigateway
+    links:
+      - discovery
+      - graphite
     environment:
       - EUREKA_URI=discovery
       - METRIC_OBSERVER_URI=graphite
-    command: echo "EUREKA_URI ${EUREKA_URI}"
 
   two:
     image: microservices/two
+    container_name: service-two
     depends_on:
+      - graphite
       - discovery
+      - apigateway
       - one
     links:
-      - zipkin
       - graphite
       - discovery
       - one
     environment:
       - EUREKA_URI=discovery
       - METRIC_OBSERVER_URI=graphite
-    command: echo "EUREKA_URI ${EUREKA_URI}"
+
+volumes:
+  grafana-volume:
+    external: true

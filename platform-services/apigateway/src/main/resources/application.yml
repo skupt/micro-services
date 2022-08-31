@@ -20,4 +20,3 @@ zuul:
     greeting-from-rest-consumer:
       path: /api/get-greeting
       serviceId: two
-

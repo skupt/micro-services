@@ -12,8 +12,8 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 @Component
 public class MetricPublisher {
 
-    @Value("${METRIC_OBSERVER_URI}")
-    private String observerUri = "localhost";
+    @Value("${METRIC_OBSERVER_URI:localhost}")
+    private String observerUri;
 
     @PostConstruct
     private void init() {
