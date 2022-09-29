@@ -1,0 +1,23 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: apigateway
+
+EUREKA_URI: localhost
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_URI:localhost}:8761/eureka
+
+zuul:
+  routes:
+    properties-from-dynamic:
+      path: /properties-from-dynamic
+      serviceId: common
+    greeting-from-rest-consumer:
+      path: /api/get-greeting
+      serviceId: two
+

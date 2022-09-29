@@ -1,0 +1,56 @@
+version: '3'
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
+
+  graphite:
+    image: graphiteapp/graphite-statsd
+    ports:
+      - "2003:2003"
+
+  discovery:
+    image: microservices/discovery
+    ports:
+      - "8761:8761"
+
+  apigateway:
+    image: microservices/apigateway
+    depends_on:
+      - discovery
+    links:
+      - discovery
+    environment:
+      - EUREKA_URI=discovery
+    command: echo "EUREKA_URI ${EUREKA_URI}"
+    ports:
+      - "8765:8765"
+
+  one:
+    image: microservices/one
+    depends_on:
+      - discovery
+    links:
+      - zipkin
+      - graphite
+      - discovery
+    environment:
+      - EUREKA_URI=discovery
+      - METRIC_OBSERVER_URI=graphite
+    command: echo "EUREKA_URI ${EUREKA_URI}"
+
+  two:
+    image: microservices/two
+    depends_on:
+      - discovery
+      - one
+    links:
+      - zipkin
+      - graphite
+      - discovery
+      - one
+    environment:
+      - EUREKA_URI=discovery
+      - METRIC_OBSERVER_URI=graphite
+    command: echo "EUREKA_URI ${EUREKA_URI}"
